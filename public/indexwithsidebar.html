@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganesh Raj - Online Resume</title>
+    <!-- Add your preferred fonts from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Victor+Mono&family=Montserrat&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Add your preferred CSS styles -->
+    <style>
+      body {
+        font-family: Montserrat;
+        background-color: #f0f0f0;
+        color: #333;
+        height: 100vh;
+      }
+      .container {
+        display: flex;
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+      .sidebar {
+        text-align: left;
+        padding: 20px;
+        background-color: #3399ff;
+        color: #fff;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .sidebar img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        padding: 10px;
+        border: 2px solid #0c20a4;
+        transform: rotate(-20deg);
+      }
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+      }
+      .sidebar ul li {
+        margin-bottom: 10px;
+      }
+      .main {
+        flex: 1;
+        padding: 20px;
+      }
+      .main h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px #333 solid;
+      }
+      .main h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+      }
+      p {
+        line-height: 1.9;
+      }
+      .sidebar p {
+        line-height: 0;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #3399ff;
+        color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      .footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+      .stars {
+        color: #0c20a4;
+      }
+      ion-icon {
+        font-size: 1.5rem;
+        transform: translateY(25%);
+      }
+      .flex {
+        display: flex;
+        gap: 5px;
+        line-height: 1.9;
+      }
+      .Hobbies {
+        display: flex;
+        gap: 30px;
+      }
+      .hob {
+        margin-top: 30px;
+        margin-bottom: 0;
+      }
+      @media (max-width: 659px) {
+        .container {
+          flex-direction: column;
+        }
+        .sidebar {
+          order: 1;
+        }
+      }
+      @media (max-width: 388px) {
+        .footer-icon {
+          visibility: hidden;
+          position: absolute;
+        }
+
+        .main h1 {
+          font-size: 34px;
+        }
+      }
+      @media (max-width: 375px) {
+        .mail {
+          font-size: small;
+        }
+      }
+
+      /* Add any additional styles or SVG icons as needed */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <img
+          src="../assets/WhatsApp Image 2023-07-16 at 14.37.50.jpeg"
+          alt="B.Ganesh Raj"
+        />
+        <h2>Contact</h2>
+        <ul>
+          <li class="flex">
+            <ion-icon name="call-outline"></ion-icon> 7395990190
+          </li>
+          <li class="flex mail">
+            <ion-icon name="mail-outline"></ion-icon>
+            rajganesh15122003@gmail.com
+          </li>
+          <li class="flex">
+            <ion-icon class="home" name="home-outline"></ion-icon>
+            <div class="address">
+              1st palla street, Vyasarpadi <br />Chennai-39, India.
+            </div>
+          </li>
+        </ul>
+        <h2>Skills</h2>
+        <p>
+          FullStack :
+          <span class="stars"
+            ><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon
+            ><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon
+            ><ion-icon name="star-outline"></ion-icon
+          ></span>
+        </p>
+        <p>
+          Python :
+          <span class="stars"
+            ><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon
+            ><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon
+            ><ion-icon name="star-outline"></ion-icon
+          ></span>
+        </p>
+        <p>
+          Excel :
+          <span class="stars"
+            ><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon
+            ><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon
+            ><ion-icon name="star-outline"></ion-icon
+          ></span>
+        </p>
+        <p>
+          DSA :
+          <span class="stars"
+            ><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon
+            ><ion-icon name="star"></ion-icon><ion-icon name="star-outline"></ion-icon
+            ><ion-icon name="star-outline"></ion-icon
+          ></span>
+        </p>
+        <h2 class="hob">Hobbies</h2>
+        <div class="Hobbies">
+          <p><ion-icon name="musical-notes-outline"></ion-icon></p>
+          <p><ion-icon name="football-outline"></ion-icon></p>
+          <p><ion-icon name="book-outline"></ion-icon></p>
+        </div>
+      </div>
+      <div class="main">
+        <h1>B.Ganesh raj</h1>
+        <h2>About me</h2>
+        <p>
+          I'm a highly motivated and passionate individual with a love for all
+          things web development, data science, and technology. I'm constantly
+          seeking to learn new things and explore the latest technologies, and
+          I'm always looking for new ways to apply my knowledge and skills to
+          create meaningful solutions. With a keen eye for detail and a natural
+          talent for problem-solving, I'm a valuable asset in any
+          technology-related endeavor.
+        </p>
+        <h2>Education <ion-icon name="school-outline"></ion-icon></h2>
+        <p>
+          <strong
+            >Bachelor of Engineering in Electronics and communication (BE EC)<br
+          /></strong>
+          Anna University / Panimalar engineering college-chennai.<br />
+          2022-2026
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="./index.html" target="_blank"
+        >Website <ion-icon class="footer-icon" name="laptop-outline"></ion-icon
+      ></a>
+      <a href="https://www.instagram.com/ganexh1/"
+        >Instagram
+        <ion-icon class="footer-icon" name="logo-instagram"></ion-icon
+      ></a>
+      <a href="https://www.linkedin.com/in/ganesh-raj01/"
+        >LinkedIn <ion-icon class="footer-icon" name="logo-linkedin"></ion-icon
+      ></a>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
